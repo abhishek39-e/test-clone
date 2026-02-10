@@ -5,7 +5,7 @@ function App() {
   // route
   return (
     <>
-      <Login />//gk
+      <Login />
     </>
   );
 }
