@@ -3,7 +3,7 @@ import Login from '../component/login';
 
 function App() {
   return (
-    //route b
+    //route
     <>
       <Login />
     </>
