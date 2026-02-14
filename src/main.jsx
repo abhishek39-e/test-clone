@@ -7,7 +7,7 @@ import Register from '../component/Register.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />hhh
+    element: <App />,
     children: [
       {
         path: 'loginpage  ',
