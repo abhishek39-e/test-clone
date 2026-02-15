@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Register = () => {
   const [focused, setFocused] = useState(null);
@@ -74,9 +75,12 @@ const Register = () => {
           <div className='text-center pt-4 border-t border-gray-700'>
             <p className='text-gray-600 text-sm'>
               Already have an account?{' '}
-              <a href='#' className='text-white font-bold hover:underline'>
-                Sign in
-              </a>
+              <Link to='/loginpage'>
+                {' '}
+                <a href='#' className='text-white font-bold hover:underline'>
+                  Sign in
+                </a>
+              </Link>
             </p>
           </div>
         </div>

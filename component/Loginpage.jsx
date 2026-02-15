@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Loginpage = () => {
   const [focused, setFocused] = useState(null);
@@ -91,13 +92,15 @@ const Loginpage = () => {
             {/* Footer */}
             <div className='text-center pt-4 border-t border-gray-700'>
               <p className='text-gray-600 text-sm'>
-                Don't have an account?{' '}
-                <a
-                  href='#'
-                  className='text-blue-500 font-bold hover:text-blue-400 transition-colors'
-                >
-                  Sign up
-                </a>
+                Don't have an account?
+                <Link to='/register'>
+                  <a
+                    href='#'
+                    className='text-blue-500 font-bold hover:text-blue-400 transition-colors'
+                  >
+                    Sign up
+                  </a>{' '}
+                </Link>
               </p>
             </div>
           </div>
