@@ -10,7 +10,7 @@ import {
   User,
   Crown,
 } from 'lucide-react';
-const navbar = () => {
+const Navbar = () => {
   const [active, setActive] = useState('home');
   const menuItems = [
     { id: 'home', label: 'Home', icon: Home },
@@ -87,4 +87,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;

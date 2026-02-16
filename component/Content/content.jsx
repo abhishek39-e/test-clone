@@ -1,10 +1,10 @@
 import React from 'react';
 
-const content = () => {
+const Content = () => {
   return (
     <div>
       <div className='xclone-content-post '>
-        <div className='xclone-post-form-container p-6 border border-sky-400 border-solid'>
+        <div className='xclone-post-form-container p-6 border border-gray-700 border-solid'>
           <div className='post-show-profile'></div>
           <div className='post-from'>
             <input
@@ -24,4 +24,4 @@ const content = () => {
   );
 };
 
-export default content;
+export default Content;
