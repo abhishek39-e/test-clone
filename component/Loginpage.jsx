@@ -9,7 +9,7 @@ const Loginpage = () => {
         {/* Sign In Card */}
         <div className='w-full max-w-md'>
           <div className='bg-black border border-gray-700 rounded-2xl p-8 space-y-6'>
-            {/* X Logo / Header */}
+            {/* X Logo / Headerr */}
             <div className='text-center space-y-4'>
               <div className='text-4xl font-black text-white'>𝕏</div>
               <h1 className='text-2xl font-bold text-white'>Sign in to X</h1>
