@@ -26,13 +26,13 @@ const Navbar = () => {
     { id: 'more', label: 'More', icon: MoreHorizontal },
   ];
   return (
-    <div className='h-screen w-64 bg-black border-r border-gray-700 flex flex-col p-4 fixed'>
+    <div className='h-screen bg-black border-r border-gray-700 flex flex-col p-4 fixed overflow-y-auto'>
       {/* X Logo */}
       <div className='mb-8'>
         <div className='text-3xl font-black text-white'>𝕏</div>
       </div>
 
-      {/* Navigation Menu */}
+      {/* Navigation Mendkfu */}
       <nav className='flex-1 space-y-4'>
         {menuItems.map((item) => {
           const Icon = item.icon;
@@ -42,7 +42,7 @@ const Navbar = () => {
             <button
               key={item.id}
               onClick={() => setActive(item.id)}
-              className={`w-full flex items-center space-x-4 px-4 py-3 rounded-full transition-all duration-200 group ${
+              className={` flex items-center space-x-4 px-4 py-3 rounded-full transition-all duration-200 group ${
                 isActive
                   ? 'text-white'
                   : 'text-gray-300 hover:text-white hover:bg-gray-900/50'
@@ -56,7 +56,7 @@ const Navbar = () => {
                     : 'text-gray-300 group-hover:text-white'
                 }`}
               />
-              <span className='text-xl font-semibold'>{item.label}</span>
+              <span className='text-xl font-semibold hidden'>{item.label}</span>
             </button>
           );
         })}
