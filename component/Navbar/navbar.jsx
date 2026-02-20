@@ -32,7 +32,7 @@ const Navbar = () => {
         <div className='text-3xl font-black text-white'>𝕏</div>
       </div>
 
-      {/* Navigation Men */}
+      {/* Navigation Me */}
       <nav className='flex-1 space-y-4'>
         {menuItems.map((item) => {
           const Icon = item.icon;
