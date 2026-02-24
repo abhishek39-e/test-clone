@@ -29,7 +29,9 @@ const Navbar = () => {
     <div className='h-screen bg-black border-r border-gray-700 flex flex-col p-4 fixed overflow-y-auto'>
       {/* X Logo */}
       <div className='mb-8'>
-        <div className='text-3xl font-black text-white'>𝕏</div>
+        <div className='text-3xl font-black text-white'>
+          <span>𝕏</span>
+        </div>
       </div>
 
       {/* Navigation join */}
