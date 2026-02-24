@@ -34,7 +34,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Navigation join */}
+      {/* Navigation */}
       <nav className='flex-1 space-y-4'>
         {menuItems.map((item) => {
           const Icon = item.icon;
