@@ -65,9 +65,11 @@ const Navbar = () => {
       </nav>
 
       {/* Post Button */}
-      <button className='w-full bg-blue-500 text-white font-bold py-3 rounded-full text-lg transition-all duration-200 hover:bg-blue-600 active:bg-blue-700 mb-4'>
-        Post
-      </button>
+      <span className='p-3'>
+        <button className='w-full bg-blue-500 text-white font-bold py-3 rounded-full text-base transition-all duration-200 hover:bg-blue-600 active:bg-blue-700 mb-4'>
+          P
+        </button>
+      </span>
 
       {/* User Profile Section */}
       <div className='border-t border-gray-700 pt-4'>
@@ -75,13 +77,13 @@ const Navbar = () => {
           <div className='w-10 h-10 bg-gray-700 rounded-full flex items-center justify-center group-hover:bg-gray-600 transition-all'>
             <User size={20} className='text-white' />
           </div>
-          <div className='text-left flex-1'>
+          <div className='text-left flex-1 hidden'>
             <p className='text-white font-bold text-sm'>User Name</p>
             <p className='text-gray-600 text-xs'>@username</p>
           </div>
           <MoreHorizontal
             size={18}
-            className='text-gray-600 group-hover:text-white transition-all'
+            className='text-gray-600 group-hover:text-white transition-all hidden'
           />
         </button>
       </div>
