@@ -9,6 +9,7 @@ const Home = () => {
         <div className='x_clone_nav grow max-w-100px'>
           <Navbar />
         </div>
+        <span></span>
         <div className='xclone_content grow-2 mx-2'>
           <Content />
         </div>
