@@ -18,6 +18,7 @@ function App() {
         {/* interface routes */}
         <Route path='/home' element={<Home />} />
         <Route path='/profile' element={<Home />} />
+        {/* <Route path='/profile' element={<Home />} /> */}
       </Routes>
     </>
   );
