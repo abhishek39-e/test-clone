@@ -15,7 +15,7 @@ function App() {
         <Route path='/loginpage' element={<Loginpage />} />
         <Route path='/register' element={<Register />} />
 
-        {/* interface routes */}
+        {/* interface route */}
         <Route path='/home' element={<Home />} />
       </Routes>
     </>
