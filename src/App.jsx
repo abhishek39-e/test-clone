@@ -9,7 +9,7 @@ function App() {
   return (
     //route
     <>
-      {/* <Login /> */}
+      {/* Login routes */}
       <Routes>
         <Route path='/' element={<Login />} />
         <Route path='/loginpage' element={<Loginpage />} />
