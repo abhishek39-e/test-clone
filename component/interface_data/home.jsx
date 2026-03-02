@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import Content from '../Content/content';
+import Post from './post';
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         </div>
         <div className='xclone_content grow-2 mx-2'>
           <Content />
+          <Post />
         </div>
         <div className='xclone_following grow-2'>Following</div>
       </div>

@@ -6,7 +6,7 @@ const Content = () => {
       <div className='xclone-content-post '>
         <div className='xclone-post-form-container p-6 border border-gray-700 border-solid'>
           <div className='post-show-profile'></div>
-          <div className='post-from'>
+          <div className='post-from flex justify-between'>
             <input
               type='text'
               placeholder='What is happening?!'
